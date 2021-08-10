@@ -67,6 +67,8 @@ function factorial (ponto1){
 console.log(factorial(5))
 
 
+
+
 // descomente a linha seguinte para testar sua função
 // console.assert(factorial(5) === 120, 'A função factorial não está funcionando como esperado');
 
