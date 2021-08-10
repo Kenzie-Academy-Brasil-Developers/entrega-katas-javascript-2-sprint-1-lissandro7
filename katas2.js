@@ -46,7 +46,7 @@ function power(point1,point2){
     return potencia;
 }
 
-// console.log(power(3,4));
+console.log(power(3,4));
 
 // descomente a linha seguinte para testar sua função
 // console.assert(power(3, 4) === 81, 'A função power não está funcionando como esperado');
