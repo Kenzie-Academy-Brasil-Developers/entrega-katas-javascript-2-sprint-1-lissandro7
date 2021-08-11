@@ -1,31 +1,21 @@
 function add (x,y){
 
     console.log(x,y)
-
     let soma = x + y ;
-
     return soma;
-
 }
-
-
-
-// descomente a linha seguinte para testar sua função
-
-//console.assert(add(3, 5) === 8, 'A função add não está funcionando como esperado');
 
 
 function multiply (point1,point2){
 
-   let mult =  point1;
+    let mult =  point1;
 
     for(let c = 1; c < point2 ; c++)
     {
     mult = add(mult , point1);
-
-    
-}
-return mult;
+  
+    }
+    return mult;
 }
 
 
@@ -35,31 +25,23 @@ return mult;
 function power(point1,point2){
 
     let potencia = point1;
-
     for(let c = 1 ; c < point2 ; c++)
     {
-
         potencia = multiply(potencia,point1);
-
-
     } 
     return potencia;
 }
 
 console.log(power(3,4));
 
-// descomente a linha seguinte para testar sua função
-// console.assert(power(3, 4) === 81, 'A função power não está funcionando como esperado');
 
 
 function factorial (ponto1){
     
     let aglomerar = ponto1;
-
-    for(let c = ponto1-1 ; c >= 1 ; c --)
-    {
+    for(let c = ponto1-1 ; c >= 1 ; c --){
+        
     aglomerar = multiply(aglomerar , c );
-
     }
     return aglomerar;
 }
